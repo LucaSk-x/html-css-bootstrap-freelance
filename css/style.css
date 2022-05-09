@@ -13,6 +13,38 @@
 }
 
 .section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
+
+.contain-avatar {
+    width: 250px;
+}
+
+img {
+    width: 100%;
+}
+
+.btn-outline-primary {
+    color: var(--bs-primary);
+    border-color: white;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #1fa086;
+    border-color: white;
+}
+
+.form-control {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.form-control:focus {
+    color: #a6adb4;
+    background-color: #fff;
+    border-color: #a6adb4;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(179, 183, 188, 0.25);
